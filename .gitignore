@@ -1,0 +1,12 @@
+# local .terraform dir
+.terraform/*
+
+# tf state files
+*.tfstate
+*.tfstate.*
+
+# tf variable files, may include sensitive data
+*.tfvars
+
+# terraform folder(it ignore the total terraform_1.5.2_windows_386/ folder)
+/terraform_1.5.2_windows_386/
