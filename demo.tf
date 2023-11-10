@@ -47,4 +47,5 @@ resource "aws_security_group" "demo-sg" {
   }
    
 }
+}
 
